@@ -1,0 +1,25 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: process
+  namespace: linggle
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: "1"
+    spec:
+      containers:
+        - image: docker.io/sappy5678/nlp-process:v0.1.11
+          env:
+            - name: TARGET
+              value: "Python Sample v1"
+          volumeMounts:
+            - name: secret-volume
+              mountPath: /.ssh
+              readOnly: true
+      volumes:
+        - name: secret-volume
+          secret:
+            secretName: elastic-key
+            defaultMode: 256

@@ -1,0 +1,9 @@
+uvicorn
+fastapi
+requests
+elasticsearch 
+elasticsearch_dsl
+spacy
+rich
+luigi[toml]
+nltk

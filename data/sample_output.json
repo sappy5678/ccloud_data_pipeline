@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"id": "This is id", "title": "This is input", "content": [], "metadata": {}}
+=======
+{"id": "This is id", "title": "This is input", "content": [{"sentence": {"origin": "Apple is looking at buying U.K. startup for $1 billion", "Tok": {}, "Pos": {}, "Tag": {}, "Ner": {}, "Dep": {}}}], "metadata": {}}
+>>>>>>> d113409810a9634d308c8867bcb3c9861c4d389d

@@ -1,0 +1,1 @@
+{"id": "0", "title": "MMM", "content": [{"sentence": {"origin": "Firefox is looking at buying U.K. startup for $1 billion"}}, {"sentence": {"origin": "I am looking at something"}}], "pipline": {"parser": "nltk", "Tok": 1, "Pos": 1, "Tag": 1, "Ner": 1, "Dep": 1}, "metadata": {"index": "test"}}
